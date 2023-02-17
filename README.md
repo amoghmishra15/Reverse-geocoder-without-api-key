@@ -24,6 +24,13 @@ Sends the request to the website and extracts the output and saves it in an Exce
 
 ## How it works
 
+- The program reads the excel file and converts into a dataframe.
+- The program launches chrome webdriver and navigates to [Google-Devsite](https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/utils/geocoder).
+- The geocode is input into the search field and the output is saved in another dataframe.
+- The program loops until all the geocodes are entered one by one and the output is obtained.
+- the output is then exported as an excel file.
+
+
 ## Drawbacks
 
 It has an apparent soft cap of around *100 - 115* requests per 10 ish minutes. So modify as per your own needs.
