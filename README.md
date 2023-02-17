@@ -6,6 +6,11 @@ This program utilises the [Google-Devsite](https://developers-dot-devsite-v2-pro
 
 Sends the request to the website and extracts the output and saves it in an Excel file.
 
-## Drawback
+## Prerequisites
+
+- [Selenium Webdriver](https://chromedriver.chromium.org/downloads) (!pip install selenium)
+- [pandas](https://pandas.pydata.org/) (!pip install pandas)
+
+## Drawbacks
 
 It has an apparent soft cap of around *100 - 115* requests per 10 ish minutes. So modify as per your own needs.
