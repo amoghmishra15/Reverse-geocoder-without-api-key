@@ -8,8 +8,9 @@ Sends the request to the website and extracts the output and saves it in an Exce
 
 ## Prerequisites
 
-- [Selenium Webdriver](https://chromedriver.chromium.org/downloads) (!pip install selenium)
-- [pandas](https://pandas.pydata.org/) (!pip install pandas)
+- [Python](https://www.python.org/)
+- [Selenium Webdriver](https://chromedriver.chromium.org/downloads) ```!pip install selenium```
+- [pandas](https://pandas.pydata.org/) ```!pip install pandas```
 
 ## Drawbacks
 
